@@ -1,1 +1,5 @@
 # Heart-Disease
+# Introduction
+Coronary artery disease (CAD) poses a significant health challenge, marked by the narrowing of coronary arteries, necessitating precise diagnostic tools for timely intervention and treatment (Detrano, et al.,1989). Traditionally, invasive procedures like angiography have been employed for diagnosis, but they come with inherent risks such as arterial injury, stroke, and radiation exposure (Mayo Clinic, 2021). Recognizing the imperative for safer alternatives, there is an increasing interest in non-invasive diagnostic methods that leverage patient demographics and basic clinical information for CAD diagnosis. This data analysis aims to address this need by evaluating the diagnosis of the presence of heart disease using essential parameters: age, cholesterol levels, and resting blood pressure based on the database from the Hungarian Institute of Cardiology.
+
+Research Question: Will the new patient have heart disease or not based on their age, cholesterol, and resting blood pressure?
