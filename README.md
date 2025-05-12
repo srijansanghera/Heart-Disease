@@ -1,7 +1,6 @@
 # Heart Disease Prediction based on Age, Cholesterol, and Resting Blood Pressure
 
-This project aims to diagnose the presence of heart disease using key health indicators: **age**, **cholesterol levels**, and **resting blood pressure**.  
-It utilises data from the **Hungarian Institute of Cardiology** and applies machine learning classification techniques to predict whether a patient has heart disease.
+This project aims to diagnose the presence of heart disease using key health indicators: **age**, **cholesterol levels**, and **resting blood pressure**. It utilises data from the **Hungarian Institute of Cardiology** and applies machine learning classification techniques to predict whether a patient has heart disease.
 
 ## 📝 Project Overview
 
