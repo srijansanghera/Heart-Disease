@@ -1,5 +1,46 @@
-# Heart-Disease
-# Introduction
-Coronary artery disease (CAD) poses a significant health challenge, marked by the narrowing of coronary arteries, necessitating precise diagnostic tools for timely intervention and treatment (Detrano, et al.,1989). Traditionally, invasive procedures like angiography have been employed for diagnosis, but they come with inherent risks such as arterial injury, stroke, and radiation exposure (Mayo Clinic, 2021). Recognizing the imperative for safer alternatives, there is an increasing interest in non-invasive diagnostic methods that leverage patient demographics and basic clinical information for CAD diagnosis. This data analysis aims to address this need by evaluating the diagnosis of the presence of heart disease using essential parameters: age, cholesterol levels, and resting blood pressure based on the database from the Hungarian Institute of Cardiology.
+# Heart Disease Prediction based on Age, Cholesterol, and Resting Blood Pressure
 
-Research Question: Will the new patient have heart disease or not based on their age, cholesterol, and resting blood pressure?
+This project aims to diagnose the presence of heart disease using key health indicators: **age**, **cholesterol levels**, and **resting blood pressure**.  
+It utilises data from the **Hungarian Institute of Cardiology** and applies machine learning classification techniques to predict whether a patient has heart disease.
+
+## 📝 Project Overview
+
+- **Research Question:**  
+  *Can we accurately predict the presence of heart disease based on a patient's age, cholesterol, and resting blood pressure?*
+
+- **Dataset Source:**  
+  Hungarian Institute of Cardiology, Budapest.
+
+- **Selected Features:**
+  - `age` — Patient's age in years.
+  - `chol` — Serum cholesterol (mg/dL).
+  - `trestbps` — Resting blood pressure (mm Hg).
+  - `num` — Diagnosis of heart disease (1 = presence, 0 = absence).
+
+## 🛠 Methods
+
+- Data wrangling: Handling missing values and selecting relevant variables.
+- Data splitting: 75% training / 25% testing.
+- Exploratory Data Analysis (EDA): Descriptive statistics and visualisation.
+- Model building:  
+  - **k-Nearest Neighbors (k-NN)** classification algorithm.
+- Model evaluation: Assessing predictive performance on the test set.
+
+## 🔧 Languages & Packages Used
+
+- R programming language
+- Packages: `tidyverse`, `tidymodels`, `kknn`, `repr`
+
+## 📊 Results
+
+- Built a k-nearest neighbour classification model to predict heart disease with selected features.
+- Explored how age, cholesterol, and resting blood pressure relate to disease occurrence.
+
+## 👥 Authors
+
+- Srijan Sanghera
+- Sharon Feng
+- Annie Wang
+- Mairin Leitch
+
+
